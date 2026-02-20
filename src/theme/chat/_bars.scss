@@ -33,3 +33,36 @@
   background: cv('shading.popout');
   border: none;
 }
+
+// SUMMARIES (BETA)
+#{c(chat ai summaryPill)} {
+  background: cv('shading.popout');
+  border: none;
+  border-radius: 5px;
+}
+#{c(chat ai summaryDropdown)} {
+  background: cv('shading.popout');
+  border: none;
+  border-radius: 5px;
+}
+#{c(chat ai summaryDropdownItem)} {
+  background: transparent;
+  &:hover {
+    background: transparent;
+  }
+}
+#{c(chat ai summaryDropdownScroller)} {
+  background: cv('shading.popout');
+}
+#{c(chat ai summaryDropdownHeading)} {
+  background: transparent;
+}
+#{c(chat ai summaryFeedbackWrapper)} {
+  background: transparent;
+}
+#{c(chat ai summaryFeedbackEndIcon)} {
+  background: transparent;
+}
+#{c(chat ai summaryBetaTag)} {
+  background: cv('color.main') !important;
+}
