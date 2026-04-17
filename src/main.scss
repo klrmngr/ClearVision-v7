@@ -76,7 +76,7 @@ $calc: h calc(#{$sf} * s) l / alpha; // avoid repetition
   --offline-color: #808080;
 
   --background-shading-percent: 100%;
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+  --background-image: transparent;
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
@@ -97,8 +97,8 @@ $calc: h calc(#{$sf} * s) l / alpha; // avoid repetition
   --home-icon: url(https://clearvision.github.io/icons/discord.svg);
   --home-size: cover;
 
-  --main-font: 'gg sans', Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --code-font: Consolas, 'gg mono', 'Liberation Mono', Menlo, Courier, monospace;
+  --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 
   --channel-normal: var(--interactive-text-default);
   --channel-muted: var(--interactive-muted); 
@@ -162,4 +162,8 @@ $calc: h calc(#{$sf} * s) l / alpha; // avoid repetition
   // ALSO EDITABLE
   --normal-text: #dcdcde;
   --muted-text: #86868e;
+}
+
+#vc-spotify-player {
+  background: transparent !important;
 }
